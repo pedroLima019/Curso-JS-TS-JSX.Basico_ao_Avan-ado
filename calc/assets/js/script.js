@@ -10,7 +10,7 @@ function criaCalculadora() {
 
     pressionaEnter() {
       this.display.addEventListener("keyup", (e) => {
-        if (e.keyCode === 13) { // Correção: e.keyCode, não e.keycode
+        if (e.keyCode === 13) { 
           this.realizaConta();
         }
       });
